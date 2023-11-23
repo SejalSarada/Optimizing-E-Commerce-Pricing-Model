@@ -57,7 +57,7 @@ By comparing Pyro and Python, we aim to provide insights into the best tool for 
 
 # Software Architecture of our Solution for Optimizing Pricing Strategies using Pyro vs. Python : 
 
-![SoftwareArchitectureFlowchart](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/4c2e5d0d-f902-411a-a698-e18297fc8acc)
+![SoftwareArchitectureFlowchart](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/doc/SoftwareArchitectureFlowchart.jpg)
 
 The software architecture for our pricing optimization solution involves a combination of components and their interactions.
 
