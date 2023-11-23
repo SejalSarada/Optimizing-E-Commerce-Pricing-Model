@@ -153,34 +153,42 @@ The code demonstrates principles of programming languages (POPL) aspects such as
 
 Modularity: The code starts by importing external libraries, demonstrating modularity by using pre-built modules for data manipulation (pandas), machine learning model (LinearRegression), and model evaluation (train_test_split, mean_squared_error).
 
-![snippet11](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/27afb75e-c0d0-47d6-93a6-804e680de130)
+![snippet10](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/77a97c38-05c7-4da8-9d19-d09682eddf46)
+
 
 
 Abstraction: The code abstracts away the details of loading the dataset into a Pandas DataFrame using pd.read_csv. This encapsulates the complexity of reading data from a CSV file.
 
-![sinppet12](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/6385cd29-1a1f-4586-86d9-1eb4ed1b8882)
+![snippet11](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/a3d348a7-dc5d-4ca7-8fc4-c1b74e9b0051)
+
 
 Abstraction: The use of pd.get_dummies abstracts the process of one-hot encoding categorical features. This hides the details of the encoding process.
 Modularity: The preprocessing steps are organized into a separate section, promoting modularity by isolating data preparation logic.
 
 
-![snippet13](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/dcf9af11-abcd-48e3-a574-2a74a592720a)
+![sinppet12](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/0f22e927-881f-4e50-9ff8-4a85d069dd4e)
+
 
 Abstraction: The code abstracts the process of splitting the data into training and testing sets using train_test_split. This hides the details of data partitioning.
 
-![snippet14](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/f12a65aa-0ed2-40f9-9dc0-5f0c2cdb77cb)
+
+![snippet13](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/0a41a2d5-e912-4674-8ff3-7d0465a7b7ec)
 
 Abstraction: The code abstracts the training of a linear regression model using LinearRegression and fit method. This encapsulates the details of the training process.
 
-![snippet15](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/56c80051-bbd7-4bcd-9645-cdd5f04ecb23)
+![snippet14](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/cec6ab83-51e6-4875-aa4c-30ae09e01678)
+
 
 
 Abstraction: The code abstracts the prediction process using the trained model's predict method. This hides the details of the prediction process.
 
-![snippet16](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/6c8636d1-19ff-473d-b7b0-d54c3df41699)
+![snippet15](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/15d0d410-47d7-4e8d-95de-313cdc374b5e)
+
 
 Modularity: The evaluation logic is encapsulated in the calculation of mean squared error, promoting modularity by isolating evaluation details.
 Abstraction: The details of calculating and printing mean squared error are abstracted into a few lines, making the code more readable.
+![snippet16](https://github.com/SejalSarada/Optimizing-E-Commerce-Pricing-Model/assets/77984669/97660514-3010-44fc-9dea-df1ff6b06374)
+
 
 Modularity: The code encapsulates the process of extracting and printing pricing coefficients, promoting modularity by isolating this logic. 
 Abstraction: The details of obtaining and printing pricing coefficients are abstracted into a few lines, making the code more readable.
