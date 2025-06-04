@@ -1,12 +1,14 @@
-# Optimizing-ECommerce-Pricing-Model
-This repository encapsulates G:64's complete work for the course's project Milestone-2 for CSF305: PoPL 
+# Optimizing-E-Commerce-Pricing-Model
+This repository encapsulates G:64's complete work for the course's project for CSF305: PoPL. <br /> 
 Contributors are:
   1. Kuhu Gupta (2020B4A71524G)
   2. Prathamesh Tiwari (2021A7PS2834G)
   3. Sejal Sarada (2020B4A71849G)
   4. Tejas Saraogi (2021A7PS2835G)
 
-# Problem Statement: Optimizing E-Commerce Pricing Strategies Using Probabilistic Programming
+# Problem Statement:
+Optimizing E-Commerce Pricing Strategies Using Probabilistic Programming
+
 ## Introduction
 In the dynamic landscape of e-commerce, pricing strategies play a pivotal role in determining a business’s profitability. The challenge lies in striking a delicate balance: setting prices that attract customers, maximize revenue, and adapt to ever-changing market conditions. Traditional deterministic pricing models fall short in capturing the inherent uncertainty and variability associated with customer behavior, sales patterns, and external factors. Our goal is to develop a sophisticated probabilistic pricing model that optimizes revenue while considering uncertainty and variability. This model will be implemented using both **Pyro** (a probabilistic programming language) and **Python** (a general-purpose language). Our focus extends beyond mere comparison; we aim to dissect the technical intricacies and POPL aspects inherent in each approach.
 ## Problem Context
